@@ -1,0 +1,483 @@
+time="2020-12-28T12:56:52Z" level=info msg=n3iwf category=App component=N3IWF
+time="2020-12-28T12:56:52Z" level=info msg="N3IWF version:  \n\tversion: v3.0.4\n\tbuild time: 2020-12-23T00:15:56Z\n\tcommit hash: 1ccc4178\n\tcommit time: 2020-09-28T21:05:03Z\n\tgo version: go1.14.4 linux/amd64" category=App component=N3IWF
+time="2020-12-28T12:56:52Z" level=info msg="Successfully initialize configuration config/n3iwfcfg.conf" category=Init component=N3IWF
+time="2020-12-28T12:56:52Z" level=info msg="Log level is set to [info] level" category=Init component=N3IWF
+time="2020-12-28T12:56:52Z" level=info msg="Server started" category=Init component=N3IWF
+time="2020-12-28T12:56:52Z" level=warning msg="No private key file path specified, load default key file..." category=Context component=N3IWF
+time="2020-12-28T12:56:52Z" level=warning msg="Parse PKCS8 private key failed: x509: failed to parse private key (use ParsePKCS1PrivateKey instead for this key format)" category=Context component=N3IWF
+time="2020-12-28T12:56:52Z" level=info msg="Parse using PKCS1..." category=Context component=N3IWF
+time="2020-12-28T12:56:52Z" level=warning msg="No certificate authority file path specified, load default CA certificate..." category=Context component=N3IWF
+time="2020-12-28T12:56:52Z" level=warning msg="No certificate file path specified, load default certificate..." category=Context component=N3IWF
+time="2020-12-28T12:56:52Z" level=error msg="[SCTP] DialSCTP(): connection refused" category=NGAP component=N3IWF
+time="2020-12-28T12:56:52Z" level=info msg="Retry to connect AMF after 1 second..." category=NGAP component=N3IWF
+time="2020-12-28T12:56:53Z" level=error msg="[SCTP] DialSCTP(): connection refused" category=NGAP component=N3IWF
+time="2020-12-28T12:56:53Z" level=info msg="Retry to connect AMF after 1 second..." category=NGAP component=N3IWF
+time="2020-12-28T12:56:54Z" level=error msg="[SCTP] DialSCTP(): connection refused" category=NGAP component=N3IWF
+time="2020-12-28T12:56:54Z" level=error msg="Failed to connect to AMF." category=NGAP component=N3IWF
+time="2020-12-28T12:56:54Z" level=error msg="Start NGAP service failed: NGAP service run failed" category=Init component=N3IWF
+time="2021-01-12T21:29:14Z" level=info msg=n3iwf category=App component=N3IWF
+time="2021-01-12T21:29:14Z" level=info msg="N3IWF version:  \n\tNot specify ldflags (which link version) during go build\n\tgo version: go1.14.4 linux/amd64" category=App component=N3IWF
+time="2021-01-12T21:29:14Z" level=info msg="Successfully initialize configuration ../../config/n3iwfcfg.conf" category=Init component=N3IWF
+time="2021-01-12T21:29:14Z" level=info msg="Log level is set to [info] level" category=Init component=N3IWF
+time="2021-01-12T21:29:14Z" level=info msg="Server started" category=Init component=N3IWF
+time="2021-01-12T21:29:14Z" level=warning msg="No private key file path specified, load default key file..." category=Context component=N3IWF
+time="2021-01-12T21:29:14Z" level=warning msg="Parse PKCS8 private key failed: x509: failed to parse private key (use ParsePKCS1PrivateKey instead for this key format)" category=Context component=N3IWF
+time="2021-01-12T21:29:14Z" level=info msg="Parse using PKCS1..." category=Context component=N3IWF
+time="2021-01-12T21:29:14Z" level=warning msg="No certificate authority file path specified, load default CA certificate..." category=Context component=N3IWF
+time="2021-01-12T21:29:14Z" level=warning msg="No certificate file path specified, load default certificate..." category=Context component=N3IWF
+time="2021-01-12T21:29:14Z" level=info msg="[N3IWF] Send NG Setup Request" category=NGAP component=N3IWF
+time="2021-01-12T21:29:14Z" level=info msg="NGAP service running." category=Init component=N3IWF
+time="2021-01-12T21:29:14Z" level=info msg="NAS TCP server successfully started." category=Init component=N3IWF
+time="2021-01-12T21:29:14Z" level=info msg="Listening NWu user plane traffic" category=Init component=N3IWF
+time="2021-01-12T21:29:14Z" level=info msg="IKE service running." category=Init component=N3IWF
+time="2021-01-12T21:29:14Z" level=info msg="N3IWF running..." category=Init component=N3IWF
+time="2021-01-12T21:29:14Z" level=info msg="[N3IWF] Handle NG Setup Response" category=NGAP component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][SecurityAssociation] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][KeyExchange] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Nonce] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Decoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Decoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][SecurityAssociation] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][KeyExchange] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Nonce] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Handle IKE_SA_INIT" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][SecurityAssociation] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][KeyExchange] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Nonce] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][SecurityAssociation] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][KeyExchange] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Nonce] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Identification] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][SecurityAssociation] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][KeyExchange] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Nonce] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Decoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Decoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][SecurityAssociation] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][KeyExchange] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Nonce] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Identification] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][SecurityAssociation] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][TrafficSelector] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][TrafficSelector] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Decoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Decoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Encrypted] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Handle IKE_AUTH" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Decoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Identification] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][SecurityAssociation] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][TrafficSelector] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][TrafficSelector] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Ecoding initiator for later IKE authentication" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Identification] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Parsing security association" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Received traffic selector initiator from UE" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Received traffic selector initiator from UE" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Identification] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Certificate] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Authentication] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][EAP] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][EAP][Expanded] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Decoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Decoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Encrypted] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Decoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Identification] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Certificate] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Authentication] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][EAP] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][EAP][Expanded] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][EAP] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][EAP][Expanded] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Decoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Decoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Encrypted] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Handle IKE_AUTH" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Decoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][EAP] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][EAP][Expanded] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[N3IWF] Send Initial UE Message" category=NGAP component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[N3IWF] Handle Downlink NAS Transport" category=NGAP component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][EAP] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][EAP][Expanded] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Decoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Decoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Encrypted] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Decoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][EAP] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][EAP][Expanded] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][EAP] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][EAP][Expanded] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Decoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Decoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Encrypted] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Handle IKE_AUTH" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Decoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][EAP] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][EAP][Expanded] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[N3IWF] Send Uplink NAS Transport" category=NGAP component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[N3IWF] Handle Downlink NAS Transport" category=NGAP component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][EAP] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][EAP][Expanded] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Decoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Decoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Encrypted] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Decoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][EAP] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][EAP][Expanded] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][EAP] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][EAP][Expanded] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Decoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Decoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Encrypted] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Handle IKE_AUTH" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Decoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][EAP] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][EAP][Expanded] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[N3IWF] Send Uplink NAS Transport" category=NGAP component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[N3IWF] Handle Initial Context Setup Request" category=NGAP component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][EAP] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Decoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Decoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Encrypted] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Decoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][EAP] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Authentication] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Configuration] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Decoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Decoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Encrypted] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Handle IKE_AUTH" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Decoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Authentication] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Configuration] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Configuration] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Authentication] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][SecurityAssociation] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][TrafficSelector] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][TrafficSelector] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Notification] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Notification] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:22Z" level=info msg="[IKE][Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:23Z" level=info msg="Decoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:23Z" level=info msg="Decoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:23Z" level=info msg="[IKE][Encrypted] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:23Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:23Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:23Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:23Z" level=info msg="[IKE][Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:23Z" level=info msg="Decoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:23Z" level=info msg="[IKE][Configuration] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:23Z" level=info msg="[IKE][Authentication] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:23Z" level=info msg="[IKE][SecurityAssociation] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:23Z" level=info msg="[IKE][TrafficSelector] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:23Z" level=info msg="[IKE][TrafficSelector] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:23Z" level=info msg="[IKE][Notification] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:23Z" level=info msg="[IKE][Notification] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:23Z" level=info msg="[N3IWF] Send Initial Context Setup Response" category=NGAP component=N3IWF
+time="2021-01-12T21:29:23Z" level=info msg="[N3IWF] Handle Downlink NAS Transport" category=NGAP component=N3IWF
+time="2021-01-12T21:29:23Z" level=warning msg="No NAS signalling session found, retry..." category=NGAP component=N3IWF
+time="2021-01-12T21:29:23Z" level=warning msg="No NAS signalling session found, retry..." category=NGAP component=N3IWF
+time="2021-01-12T21:29:24Z" level=info msg="[N3IWF] Send Uplink NAS Transport" category=NGAP component=N3IWF
+time="2021-01-12T21:29:24Z" level=info msg="[N3IWF] Send Uplink NAS Transport" category=NGAP component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="[N3IWF] Handle PDU Session Resource Setup Request" category=NGAP component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="[IKE][SecurityAssociation] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="[IKE][Nonce] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="[IKE][TrafficSelector] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="[IKE][TrafficSelector] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="[IKE][Notification] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="[IKE][Notification] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="[IKE][Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="[IKE][Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="Decoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="Decoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="[IKE][Encrypted] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="[IKE][Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="Decoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="[IKE][SecurityAssociation] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="[IKE][Nonce] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="[IKE][TrafficSelector] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="[IKE][TrafficSelector] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="[IKE][Notification] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="[IKE][Notification] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="[IKE][SecurityAssociation] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="[IKE][TrafficSelector] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="[IKE][TrafficSelector] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="[IKE][Nonce] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="[IKE][Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="[IKE][Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="Decoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="Decoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="[IKE][Encrypted] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="[IKE] Handle CREATE_CHILD_SA" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="[IKE] Start encoding IKE message" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="[IKE][Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="Decoding IKE payloads" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="[IKE][SecurityAssociation] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="[IKE][TrafficSelector] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="[IKE][TrafficSelector] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="[IKE][Nonce] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2021-01-12T21:29:25Z" level=info msg="[N3IWF] Send PDU Session Resource Setup Response" category=NGAP component=N3IWF
+time="2021-01-22T00:26:28Z" level=info msg=n3iwf category=App component=N3IWF
+time="2021-01-22T00:26:28Z" level=info msg="N3IWF version:  \n\tversion: v3.0.4\n\tbuild time: 2020-12-23T00:15:56Z\n\tcommit hash: 1ccc4178\n\tcommit time: 2020-09-28T21:05:03Z\n\tgo version: go1.14.4 linux/amd64" category=App component=N3IWF
+time="2021-01-22T00:26:28Z" level=info msg="Successfully initialize configuration config/n3iwfcfg.conf" category=Init component=N3IWF
+time="2021-01-22T00:26:28Z" level=info msg="Log level is set to [info] level" category=Init component=N3IWF
+time="2021-01-22T00:26:28Z" level=info msg="Server started" category=Init component=N3IWF
+time="2021-01-22T00:26:28Z" level=warning msg="No private key file path specified, load default key file..." category=Context component=N3IWF
+time="2021-01-22T00:26:28Z" level=warning msg="Parse PKCS8 private key failed: x509: failed to parse private key (use ParsePKCS1PrivateKey instead for this key format)" category=Context component=N3IWF
+time="2021-01-22T00:26:28Z" level=info msg="Parse using PKCS1..." category=Context component=N3IWF
+time="2021-01-22T00:26:28Z" level=warning msg="No certificate authority file path specified, load default CA certificate..." category=Context component=N3IWF
+time="2021-01-22T00:26:28Z" level=warning msg="No certificate file path specified, load default certificate..." category=Context component=N3IWF
+time="2021-01-22T00:26:28Z" level=error msg="[SCTP] DialSCTP(): protocol not supported" category=NGAP component=N3IWF
+time="2021-01-22T00:26:28Z" level=info msg="Retry to connect AMF after 1 second..." category=NGAP component=N3IWF
+time="2021-01-22T00:26:29Z" level=error msg="[SCTP] DialSCTP(): protocol not supported" category=NGAP component=N3IWF
+time="2021-01-22T00:26:29Z" level=info msg="Retry to connect AMF after 1 second..." category=NGAP component=N3IWF
+time="2021-01-22T00:26:30Z" level=error msg="[SCTP] DialSCTP(): protocol not supported" category=NGAP component=N3IWF
+time="2021-01-22T00:26:30Z" level=error msg="Failed to connect to AMF." category=NGAP component=N3IWF
+time="2021-01-22T00:26:30Z" level=error msg="Start NGAP service failed: NGAP service run failed" category=Init component=N3IWF
+time="2021-01-22T00:27:31Z" level=info msg=n3iwf category=App component=N3IWF
+time="2021-01-22T00:27:31Z" level=info msg="N3IWF version:  \n\tversion: v3.0.4\n\tbuild time: 2020-12-23T00:15:56Z\n\tcommit hash: 1ccc4178\n\tcommit time: 2020-09-28T21:05:03Z\n\tgo version: go1.14.4 linux/amd64" category=App component=N3IWF
+time="2021-01-22T00:27:31Z" level=info msg="Successfully initialize configuration config/n3iwfcfg.conf" category=Init component=N3IWF
+time="2021-01-22T00:27:31Z" level=info msg="Log level is set to [info] level" category=Init component=N3IWF
+time="2021-01-22T00:27:31Z" level=info msg="Server started" category=Init component=N3IWF
+time="2021-01-22T00:27:31Z" level=warning msg="No private key file path specified, load default key file..." category=Context component=N3IWF
+time="2021-01-22T00:27:31Z" level=warning msg="Parse PKCS8 private key failed: x509: failed to parse private key (use ParsePKCS1PrivateKey instead for this key format)" category=Context component=N3IWF
+time="2021-01-22T00:27:31Z" level=info msg="Parse using PKCS1..." category=Context component=N3IWF
+time="2021-01-22T00:27:31Z" level=warning msg="No certificate authority file path specified, load default CA certificate..." category=Context component=N3IWF
+time="2021-01-22T00:27:31Z" level=warning msg="No certificate file path specified, load default certificate..." category=Context component=N3IWF
+time="2021-01-22T00:27:31Z" level=error msg="[SCTP] DialSCTP(): protocol not supported" category=NGAP component=N3IWF
+time="2021-01-22T00:27:31Z" level=info msg="Retry to connect AMF after 1 second..." category=NGAP component=N3IWF
+time="2021-01-22T00:27:32Z" level=error msg="[SCTP] DialSCTP(): protocol not supported" category=NGAP component=N3IWF
+time="2021-01-22T00:27:32Z" level=info msg="Retry to connect AMF after 1 second..." category=NGAP component=N3IWF
+time="2021-01-22T00:27:33Z" level=error msg="[SCTP] DialSCTP(): protocol not supported" category=NGAP component=N3IWF
+time="2021-01-22T00:27:33Z" level=error msg="Failed to connect to AMF." category=NGAP component=N3IWF
+time="2021-01-22T00:27:33Z" level=error msg="Start NGAP service failed: NGAP service run failed" category=Init component=N3IWF
+time="2021-01-22T00:27:37Z" level=info msg=n3iwf category=App component=N3IWF
+time="2021-01-22T00:27:37Z" level=info msg="N3IWF version:  \n\tversion: v3.0.4\n\tbuild time: 2020-12-23T00:15:56Z\n\tcommit hash: 1ccc4178\n\tcommit time: 2020-09-28T21:05:03Z\n\tgo version: go1.14.4 linux/amd64" category=App component=N3IWF
+time="2021-01-22T00:27:37Z" level=info msg="Successfully initialize configuration config/n3iwfcfg.conf" category=Init component=N3IWF
+time="2021-01-22T00:27:37Z" level=info msg="Log level is set to [info] level" category=Init component=N3IWF
+time="2021-01-22T00:27:37Z" level=info msg="Server started" category=Init component=N3IWF
+time="2021-01-22T00:27:37Z" level=warning msg="No private key file path specified, load default key file..." category=Context component=N3IWF
+time="2021-01-22T00:27:37Z" level=warning msg="Parse PKCS8 private key failed: x509: failed to parse private key (use ParsePKCS1PrivateKey instead for this key format)" category=Context component=N3IWF
+time="2021-01-22T00:27:37Z" level=info msg="Parse using PKCS1..." category=Context component=N3IWF
+time="2021-01-22T00:27:37Z" level=warning msg="No certificate authority file path specified, load default CA certificate..." category=Context component=N3IWF
+time="2021-01-22T00:27:37Z" level=warning msg="No certificate file path specified, load default certificate..." category=Context component=N3IWF
+time="2021-01-22T00:27:37Z" level=error msg="[SCTP] DialSCTP(): protocol not supported" category=NGAP component=N3IWF
+time="2021-01-22T00:27:37Z" level=info msg="Retry to connect AMF after 1 second..." category=NGAP component=N3IWF
+time="2021-01-22T00:27:38Z" level=error msg="[SCTP] DialSCTP(): protocol not supported" category=NGAP component=N3IWF
+time="2021-01-22T00:27:38Z" level=info msg="Retry to connect AMF after 1 second..." category=NGAP component=N3IWF
+time="2021-01-22T00:27:39Z" level=error msg="[SCTP] DialSCTP(): protocol not supported" category=NGAP component=N3IWF
+time="2021-01-22T00:27:39Z" level=error msg="Failed to connect to AMF." category=NGAP component=N3IWF
+time="2021-01-22T00:27:39Z" level=error msg="Start NGAP service failed: NGAP service run failed" category=Init component=N3IWF
+time="2021-01-22T00:28:36Z" level=info msg=n3iwf category=App component=N3IWF
+time="2021-01-22T00:28:36Z" level=info msg="N3IWF version:  \n\tversion: v3.0.4\n\tbuild time: 2020-12-23T00:15:56Z\n\tcommit hash: 1ccc4178\n\tcommit time: 2020-09-28T21:05:03Z\n\tgo version: go1.14.4 linux/amd64" category=App component=N3IWF
+time="2021-01-22T00:28:36Z" level=info msg="Successfully initialize configuration config/n3iwfcfg.conf" category=Init component=N3IWF
+time="2021-01-22T00:28:36Z" level=info msg="Log level is set to [info] level" category=Init component=N3IWF
+time="2021-01-22T00:28:36Z" level=info msg="Server started" category=Init component=N3IWF
+time="2021-01-22T00:28:36Z" level=warning msg="No private key file path specified, load default key file..." category=Context component=N3IWF
+time="2021-01-22T00:28:36Z" level=warning msg="Parse PKCS8 private key failed: x509: failed to parse private key (use ParsePKCS1PrivateKey instead for this key format)" category=Context component=N3IWF
+time="2021-01-22T00:28:36Z" level=info msg="Parse using PKCS1..." category=Context component=N3IWF
+time="2021-01-22T00:28:36Z" level=warning msg="No certificate authority file path specified, load default CA certificate..." category=Context component=N3IWF
+time="2021-01-22T00:28:36Z" level=warning msg="No certificate file path specified, load default certificate..." category=Context component=N3IWF
+time="2021-01-22T00:28:36Z" level=error msg="[SCTP] DialSCTP(): protocol not supported" category=NGAP component=N3IWF
+time="2021-01-22T00:28:36Z" level=info msg="Retry to connect AMF after 1 second..." category=NGAP component=N3IWF
+time="2021-01-22T00:28:37Z" level=error msg="[SCTP] DialSCTP(): protocol not supported" category=NGAP component=N3IWF
+time="2021-01-22T00:28:37Z" level=info msg="Retry to connect AMF after 1 second..." category=NGAP component=N3IWF
+time="2021-01-22T00:28:38Z" level=error msg="[SCTP] DialSCTP(): protocol not supported" category=NGAP component=N3IWF
+time="2021-01-22T00:28:38Z" level=error msg="Failed to connect to AMF." category=NGAP component=N3IWF
+time="2021-01-22T00:28:38Z" level=error msg="Start NGAP service failed: NGAP service run failed" category=Init component=N3IWF
+time="2021-01-24T10:16:20Z" level=info msg=n3iwf category=App component=N3IWF
+time="2021-01-24T10:16:20Z" level=info msg="N3IWF version:  \n\tNot specify ldflags (which link version) during go build\n\tgo version: go1.14.4 linux/amd64" category=App component=N3IWF
+time="2021-01-24T10:16:20Z" level=info msg="Successfully initialize configuration ../../config/n3iwfcfg.conf" category=Init component=N3IWF
+time="2021-01-24T10:16:20Z" level=info msg="Log level is set to [info] level" category=Init component=N3IWF
+time="2021-01-24T10:16:20Z" level=info msg="Server started" category=Init component=N3IWF
+time="2021-01-24T10:16:20Z" level=warning msg="No private key file path specified, load default key file..." category=Context component=N3IWF
+time="2021-01-24T10:16:20Z" level=warning msg="Parse PKCS8 private key failed: x509: failed to parse private key (use ParsePKCS1PrivateKey instead for this key format)" category=Context component=N3IWF
+time="2021-01-24T10:16:20Z" level=info msg="Parse using PKCS1..." category=Context component=N3IWF
+time="2021-01-24T10:16:20Z" level=warning msg="No certificate authority file path specified, load default CA certificate..." category=Context component=N3IWF
+time="2021-01-24T10:16:20Z" level=warning msg="No certificate file path specified, load default certificate..." category=Context component=N3IWF
+time="2021-01-24T10:16:20Z" level=info msg="[N3IWF] Send NG Setup Request" category=NGAP component=N3IWF
+time="2021-01-24T10:16:20Z" level=info msg="NGAP service running." category=Init component=N3IWF
+time="2021-01-24T10:16:20Z" level=info msg="NAS TCP server successfully started." category=Init component=N3IWF
+time="2021-01-24T10:16:20Z" level=info msg="Listening NWu user plane traffic" category=Init component=N3IWF
+time="2021-01-24T10:16:20Z" level=info msg="IKE service running." category=Init component=N3IWF
+time="2021-01-24T10:16:20Z" level=info msg="N3IWF running..." category=Init component=N3IWF
+time="2021-01-24T10:16:20Z" level=info msg="[N3IWF] Handle NG Setup Failure" category=NGAP component=N3IWF
+time="2021-01-24T10:16:20Z" level=warning msg="Cause Misc[4]" category=NGAP component=N3IWF
+time="2021-01-24T10:17:45Z" level=info msg=n3iwf category=App component=N3IWF
+time="2021-01-24T10:17:45Z" level=info msg="N3IWF version:  \n\tNot specify ldflags (which link version) during go build\n\tgo version: go1.14.4 linux/amd64" category=App component=N3IWF
+time="2021-01-24T10:17:45Z" level=info msg="Successfully initialize configuration ../../config/n3iwfcfg.conf" category=Init component=N3IWF
+time="2021-01-24T10:17:45Z" level=info msg="Log level is set to [info] level" category=Init component=N3IWF
+time="2021-01-24T10:17:45Z" level=info msg="Server started" category=Init component=N3IWF
+time="2021-01-24T10:17:45Z" level=warning msg="No private key file path specified, load default key file..." category=Context component=N3IWF
+time="2021-01-24T10:17:45Z" level=warning msg="Parse PKCS8 private key failed: x509: failed to parse private key (use ParsePKCS1PrivateKey instead for this key format)" category=Context component=N3IWF
+time="2021-01-24T10:17:45Z" level=info msg="Parse using PKCS1..." category=Context component=N3IWF
+time="2021-01-24T10:17:45Z" level=warning msg="No certificate authority file path specified, load default CA certificate..." category=Context component=N3IWF
+time="2021-01-24T10:17:45Z" level=warning msg="No certificate file path specified, load default certificate..." category=Context component=N3IWF
+time="2021-01-24T10:17:45Z" level=info msg="[N3IWF] Send NG Setup Request" category=NGAP component=N3IWF
+time="2021-01-24T10:17:45Z" level=info msg="NGAP service running." category=Init component=N3IWF
+time="2021-01-24T10:17:45Z" level=info msg="NAS TCP server successfully started." category=Init component=N3IWF
+time="2021-01-24T10:17:45Z" level=info msg="Listening NWu user plane traffic" category=Init component=N3IWF
+time="2021-01-24T10:17:45Z" level=info msg="IKE service running." category=Init component=N3IWF
+time="2021-01-24T10:17:45Z" level=info msg="N3IWF running..." category=Init component=N3IWF
+time="2021-01-24T10:17:45Z" level=info msg="[N3IWF] Handle NG Setup Failure" category=NGAP component=N3IWF
+time="2021-01-24T10:17:45Z" level=warning msg="Cause Misc[4]" category=NGAP component=N3IWF

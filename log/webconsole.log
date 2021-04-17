@@ -1,0 +1,13 @@
+time="2020-12-28T12:59:54Z" level=info msg=webui category=App component=WebUI
+time="2020-12-28T12:59:54Z" level=info msg="Successfully initialize configuration ../config/webuicfg.conf" category=Init component=WebUI
+time="2020-12-28T12:59:54Z" level=info msg="WEBUI debug level(string): info" category=Init component=WebUI
+time="2020-12-28T12:59:54Z" level=info msg="Server started" category=Init component=WebUI
+time="2020-12-28T13:00:05Z" level=info msg="| 200 |   5.114.239.122 | GET     | / | " category=GIN component=WebUI
+time="2020-12-28T13:00:05Z" level=info msg="| 200 |   5.114.239.122 | GET     | /static/js/main.69cbf67c.js | " category=GIN component=WebUI
+time="2020-12-28T13:00:06Z" level=info msg="| 200 |   5.114.239.122 | GET     | /static/media/free5gc_logo.adcdb325.png | " category=GIN component=WebUI
+time="2020-12-28T13:00:07Z" level=info msg="| 200 |   5.114.239.122 | GET     | /favicon.ico | " category=GIN component=WebUI
+time="2020-12-28T13:00:13Z" level=info msg="Get Registered UE Context" category=WebUI component=WebUI
+time="2020-12-28T13:00:13Z" level=info msg="| 200 |   5.114.239.122 | GET     | /static/media/Pe-icon-7-stroke.b38ef310.woff | " category=GIN component=WebUI
+time="2020-12-28T13:00:13Z" level=info msg="| 500 |   5.114.239.122 | GET     | /api/registered-ue-context | " category=GIN component=WebUI
+time="2020-12-28T13:00:16Z" level=info msg="Get All Subscribers List" category=WebUI component=WebUI
+time="2020-12-28T13:00:16Z" level=info msg="| 200 |   5.114.239.122 | GET     | /api/subscriber | " category=GIN component=WebUI
